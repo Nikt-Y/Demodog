@@ -11,7 +11,7 @@ struct Style {
     let red: UIColor = .red
     let blue: UIColor = .blue
 //    let black: UIColor = .black
-    let darkGrey: UIColor = .darkGray
+    let darkGrey: UIColor = UIColorFromRGB(rgbValue: 0x2E2E2E)
     let white: UIColor = .white
     let lightGrey: UIColor = .lightGray
     let noBrightRed: UIColor = UIColorFromRGB(rgbValue: 0xC81C1C)
