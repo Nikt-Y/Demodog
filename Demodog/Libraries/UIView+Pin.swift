@@ -52,7 +52,7 @@ extension UIView {
         for side in sides {
             switch side {
             case .top:
-                pinTop(to: superView, const)
+                pinTop(to: superView, const) 
             case .left:
                 pinLeft(to: superView, const)
             case .right:
